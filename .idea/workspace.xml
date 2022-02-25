@@ -4,11 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="328f8513-6818-4a0f-acdd-7e9c07149b4a" name="Changes" comment="init commit" />
+    <list default="true" id="328f8513-6818-4a0f-acdd-7e9c07149b4a" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Application/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Common/Constats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/IBaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/ProductSelectionAndroidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -17,6 +39,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,6 +60,109 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductSelectionAndroidTest.addProductWithParamsInCart">
+    <configuration name="ProductSelectionAndroidTest.addNoParamsForProductWithParamsInCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mobile-joom-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ProductSelectionAndroidTest" />
+      <option name="METHOD_NAME" value="addNoParamsForProductWithParamsInCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductSelectionAndroidTest.addProductWithParamsInCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mobile-joom-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ProductSelectionAndroidTest" />
+      <option name="METHOD_NAME" value="addProductWithParamsInCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductSelectionAndroidTest.addProductWithoutParamsInCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mobile-joom-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ProductSelectionAndroidTest" />
+      <option name="METHOD_NAME" value="addProductWithoutParamsInCart" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductSelectionAndroidTest.addToFavorite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mobile-joom-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ProductSelectionAndroidTest" />
+      <option name="METHOD_NAME" value="addToFavorite" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductSelectionAndroidTest.openDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mobile-joom-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ProductSelectionAndroidTest" />
+      <option name="METHOD_NAME" value="openDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductSelectionAndroidTest.addProductWithParamsInCart" />
+        <item itemvalue="JUnit.ProductSelectionAndroidTest.addProductWithoutParamsInCart" />
+        <item itemvalue="JUnit.ProductSelectionAndroidTest.openDescription" />
+        <item itemvalue="JUnit.ProductSelectionAndroidTest.addToFavorite" />
+        <item itemvalue="JUnit.ProductSelectionAndroidTest.addNoParamsForProductWithParamsInCart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
